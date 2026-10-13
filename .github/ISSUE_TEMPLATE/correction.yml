@@ -1,0 +1,17 @@
+name: Report a correction
+description: Report a broken link, changed price, stale information or access problem
+title: '[Correction] '
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource ID or title
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed?
+      description: Provide the source URL and observed behavior. A 403 alone may be automated-access blocking.
+    validations:
+      required: true
