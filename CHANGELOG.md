@@ -6,6 +6,7 @@
 - Added 16 resources (R089 to R104) after opening each official page, including a new topic, "Vulnerability management and prioritization" (CVSS v4.0, EPSS, CISA KEV, CISA's machine-readable advisories, and the maintainer's own OT Triage, which says so). See RESEARCH_NOTES.md.
 - Redesigned the generated README: a banner, a topic overview, a quick-scan table for every topic, and the full cards folded underneath.
 - Added unit tests for the validator and generator, pinned the workflow actions by commit, and added Dependabot for them.
+- The filterable Resources page on okieotsec.com is live, built from a recorded snapshot of this catalog; docs/MAINTENANCE.md explains how to refresh it.
 - Brand assets now come from the OkieOTSec brand kit v1.1; the license notice excludes the name and logo and says forks may not use them.
 
 ## Initial catalog and repository handoff
